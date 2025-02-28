@@ -1,4 +1,4 @@
-import { EufySecurity } from "eufy-security-client";
+import { EufySecurity } from "eufy-security-client-ash";
 
 import { DeviceState, dumpDevice } from "./device/state.js";
 import { DriverState, dumpDriver } from "./driver/state.js"

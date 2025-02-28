@@ -1,4 +1,4 @@
-import { CustomData, Schedule, SmartSafeAlarm911Event, SmartSafeShakeAlarmEvent } from "eufy-security-client";
+import { CustomData, Schedule, SmartSafeAlarm911Event, SmartSafeShakeAlarmEvent } from "eufy-security-client-ash";
 
 import { JSONValue, OutgoingBaseEvent } from "../outgoing_message.js";
 

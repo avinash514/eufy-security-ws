@@ -17,7 +17,7 @@ import { convertCamelCaseToSnakeCase, initializeInspectStyles, waitForEvent } fr
 import { OutgoingEventDeviceCommandResult } from "../lib/device/event.js";
 import { OutgoingEventStationCommandResult } from "../lib/station/event.js";
 import { IncomingCommandDeviceAddUser, IncomingCommandDeviceUpdateUser, IncomingCommandDeviceUpdateUserPasscode, IncomingCommandDeviceUpdateUserSchedule } from "../lib/device/incoming_message.js";
-import { IndexedProperty, Schedule } from "eufy-security-client";
+import { IndexedProperty, Schedule } from "eufy-security-client-ash";
 import { IncomingCommandChime, IncomingCommandDatabaseQueryLocal, IncomingCommandDownloadImage } from "../lib/station/incoming_message.js";
 
 const { cyan } = ansi_colors;

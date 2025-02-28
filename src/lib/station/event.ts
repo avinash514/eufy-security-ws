@@ -1,4 +1,4 @@
-import { AlarmEvent, CustomData, DatabaseCountByDate, DatabaseQueryLatestInfo, DatabaseQueryLocal, DatabaseReturnCode, Picture } from "eufy-security-client";
+import { AlarmEvent, CustomData, DatabaseCountByDate, DatabaseQueryLatestInfo, DatabaseQueryLocal, DatabaseReturnCode, Picture } from "eufy-security-client-ash";
 
 import { JSONValue, OutgoingBaseEvent } from "../outgoing_message.js";
 

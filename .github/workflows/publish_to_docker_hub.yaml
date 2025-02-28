@@ -20,7 +20,7 @@ jobs:
       - name: Prepare
         id: prep
         run: |
-          DOCKER_IMAGE=bropat/eufy-security-ws
+          DOCKER_IMAGE=avinash514/eufy-security-ws-ash
           VERSION=noop
 
           if [[ $GITHUB_REF == refs/tags/* ]]; then

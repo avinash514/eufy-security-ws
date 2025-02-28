@@ -1,4 +1,4 @@
-import { Device, DynamicLighting, IndexedProperty, Picture, PropertyName, RGBColor } from "eufy-security-client"
+import { Device, DynamicLighting, IndexedProperty, Picture, PropertyName, RGBColor } from "eufy-security-client-ash"
 import { Modify } from "../state.js";
 
 export interface DevicePropertiesSchema0 {

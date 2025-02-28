@@ -1,4 +1,4 @@
-import { AudioCodec, CommandResult, CommandType, Device,  ErrorCode, ParamType, PropertyValue, Station, StreamMetadata, VideoCodec, AlarmEvent, SmartSafeAlarm911Event, SmartSafeShakeAlarmEvent, TalkbackStream, Schedule, Picture, DatabaseReturnCode, DatabaseQueryLatestInfo, DatabaseQueryLocal, DatabaseCountByDate } from "eufy-security-client";
+import { AudioCodec, CommandResult, CommandType, Device,  ErrorCode, ParamType, PropertyValue, Station, StreamMetadata, VideoCodec, AlarmEvent, SmartSafeAlarm911Event, SmartSafeShakeAlarmEvent, TalkbackStream, Schedule, Picture, DatabaseReturnCode, DatabaseQueryLatestInfo, DatabaseQueryLocal, DatabaseCountByDate } from "eufy-security-client-ash";
 import { Readable } from "stream";
 import { ILogObj, Logger } from "tslog";
 

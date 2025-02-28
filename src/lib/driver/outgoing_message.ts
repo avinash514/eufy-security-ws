@@ -1,4 +1,4 @@
-import { EventRecordResponse } from "eufy-security-client";
+import { EventRecordResponse } from "eufy-security-client-ash";
 
 import { DriverCommand } from "./command.js";
 import { LogLevelName } from "../logging.js";

@@ -1,4 +1,4 @@
-import { Voices, CommandName, User } from "eufy-security-client";
+import { Voices, CommandName, User } from "eufy-security-client-ash";
 
 import { DeviceCommand } from "./command.js";
 

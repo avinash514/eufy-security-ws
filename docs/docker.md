@@ -1,7 +1,7 @@
 # Docker
 
 eufy-security-ws is available via a Docker image
-([`bropat/eufy-security-ws`](https://hub.docker.com/r/bropat/eufy-security-ws)). It is configured by a handful of environment variables that correspond to the options found in the config file described in the "[Try it out](tryitout.md)" section:
+([`avinash514/eufy-security-ws-ash`](https://hub.docker.com/r/avinash514/eufy-security-ws-ash)). It is configured by a handful of environment variables that correspond to the options found in the config file described in the "[Try it out](tryitout.md)" section:
 
 | Parameter | Description |
 | - | - |
@@ -28,7 +28,7 @@ docker run --network host -it \
     -e PASSWORD=password \
     -e PORT=3000 \
     -v "$(PWD)"/data:/data \
-    bropat/eufy-security-ws:latest
+    avinash514/eufy-security-ws:latest
 ```
 
 !>Note: In order for the local auto-discovery (udp broadcasting) of the respective station to work, it is recommended to operate the Docker container with the network mode `host`, otherwise the local discovery will not work and the cloud discovery must be resorted to._
@@ -41,5 +41,5 @@ docker run -it \
     -e PASSWORD=password \
     -v "$(PWD)"/data:/data \
     -p 3000:3000 \
-    bropat/eufy-security-ws:latest
+    avinash514/eufy-security-ws:latest
 ```

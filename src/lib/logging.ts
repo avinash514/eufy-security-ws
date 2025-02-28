@@ -1,5 +1,5 @@
 import { ILogObj, Logger } from "tslog";
-import { LogLevel as EufyLogLevel } from "eufy-security-client";
+import { LogLevel as EufyLogLevel } from "eufy-security-client-ash";
 
 import { DriverEvent } from "./driver/event.js";
 import { Client, ClientsController } from "./server.js";
@@ -108,7 +108,7 @@ export class LoggingEventForwarder {
 
     public start(): void {
         this.logger.info("Starting logging event forwarder");
-        this.driverLogger = this.logger.getSubLogger({ name: "eufy-security-client", minLevel: convertLogLevelToServer(this.clients.driver.getLoggingLevel("all")) });
+        this.driverLogger = this.logger.getSubLogger({ name: "eufy-security-client-ash", minLevel: convertLogLevelToServer(this.clients.driver.getLoggingLevel("all")) });
         this.driverLogger.attachTransport((logObj) => {
             this.logToTransport(this.clients.clients, logObj);
         });

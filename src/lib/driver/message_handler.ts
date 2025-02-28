@@ -1,4 +1,4 @@
-import { EufySecurity, LoginOptions } from "eufy-security-client";
+import { EufySecurity, LoginOptions } from "eufy-security-client-ash";
 import { ILogObj, Logger } from "tslog";
 
 import { UnknownCommandError } from "../error.js";

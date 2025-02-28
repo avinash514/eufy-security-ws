@@ -1,6 +1,6 @@
 ![Logo](docs/_media/eufy-security-ws.png)
 
-# eufy-security-ws
+# eufy-security-ws-ash
 
 [![node](https://img.shields.io/node/v/eufy-security-ws.svg)](https://www.npmjs.com/package/eufy-security-ws)
 [![NPM version](http://img.shields.io/npm/v/eufy-security-ws.svg)](https://www.npmjs.com/package/eufy-security-ws)
@@ -11,7 +11,7 @@
 
 [![NPM](https://nodei.co/npm/eufy-security-ws.png?downloads=true)](https://nodei.co/npm/eufy-security-ws/)
 
-Small server wrapper around [eufy-security-client](https://www.npmjs.com/package/eufy-security-client) library to access it via a WebSocket.
+Small server wrapper around [eufy-security-client-ash](https://www.npmjs.com/package/eufy-security-client-ash) library to access it via a WebSocket.
 
 The development of this server was inspired by the following project:
 

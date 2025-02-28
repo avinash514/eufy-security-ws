@@ -1,4 +1,4 @@
-import { EufySecurity } from "eufy-security-client";
+import { EufySecurity } from "eufy-security-client-ash";
 import date from "date-and-time";
 
 import { UnknownCommandError } from "../error.js";

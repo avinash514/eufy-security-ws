@@ -1,4 +1,4 @@
-import { CommandName, EufySecurity, TalkbackStream } from "eufy-security-client";
+import { CommandName, EufySecurity, TalkbackStream } from "eufy-security-client-ash";
 
 import { DownloadAlreadyRunningError, DownloadNotRunningError, DownloadOnlyOneAtATimeError, LivestreamAlreadyRunningError, LivestreamNotRunningError, TalkbackAlreadyRunningError, TalkbackNotRunningError, TalkbackOnlyOneAtATimeError, UnknownCommandError } from "../error.js";
 import { Client } from "../server.js";

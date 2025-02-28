@@ -1,4 +1,4 @@
-import { EventFilterType } from "eufy-security-client";
+import { EventFilterType } from "eufy-security-client-ash";
 
 import { DriverCommand } from "./command.js";
 import { IncomingCommandBase } from "../incoming_message_base.js";

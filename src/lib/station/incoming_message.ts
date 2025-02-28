@@ -1,4 +1,4 @@
-import { CommandName, FilterDetectType, FilterEventType, FilterStorageType, PropertyName } from "eufy-security-client";
+import { CommandName, FilterDetectType, FilterEventType, FilterStorageType, PropertyName } from "eufy-security-client-ash";
 
 import { IncomingCommandBase } from "../incoming_message_base.js";
 import { StationCommand } from "./command.js";

@@ -1,4 +1,4 @@
-import { CommandName, PresetPositionType, PropertyName, Schedule, PanTiltDirection } from "eufy-security-client";
+import { CommandName, PresetPositionType, PropertyName, Schedule, PanTiltDirection } from "eufy-security-client-ash";
 
 import { IncomingCommandBase } from "../incoming_message_base.js";
 import { DeviceCommand } from "./command.js";

@@ -3,7 +3,7 @@
 import { resolve } from "path";
 import { Command, Option } from "commander";
 import { ILogObj, Logger } from "tslog";
-import { EufySecurity, EufySecurityConfig, LogLevel } from "eufy-security-client"
+import { EufySecurity, EufySecurityConfig, LogLevel } from "eufy-security-client-ash"
 import { createRequire } from "module";
 
 import { EufySecurityServer } from "../lib/server.js";
@@ -73,7 +73,7 @@ const args = program.opts();
         type: args.quiet ? "hidden" : "pretty",
         hideLogPositionForProduction: true,
     });
-    const driver: EufySecurity = await EufySecurity.initialize(config, logger.getSubLogger({ name: "eufy-security-client" }));
+    const driver: EufySecurity = await EufySecurity.initialize(config, logger.getSubLogger({ name: "eufy-security-client-ash" }));
 
     let server: EufySecurityServer;
 

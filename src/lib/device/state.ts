@@ -1,4 +1,4 @@
-import { Device, DeviceType, PropertyName } from "eufy-security-client"
+import { Device, DeviceType, PropertyName } from "eufy-security-client-ash"
 
 import { Modify } from "../state.js";
 

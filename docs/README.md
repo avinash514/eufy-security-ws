@@ -1,17 +1,17 @@
 ![logo](_media/eufy-security-ws.png)
 
-# eufy-security-ws
+# eufy-security-ws-ash
 
-[![node](https://img.shields.io/node/v/eufy-security-ws.svg)](https://www.npmjs.com/package/eufy-security-ws)
-[![NPM version](http://img.shields.io/npm/v/eufy-security-ws.svg)](https://www.npmjs.com/package/eufy-security-ws)
-[![Downloads](https://img.shields.io/npm/dm/eufy-security-ws.svg)](https://www.npmjs.com/package/eufy-security-ws)
-[![Total Downloads](https://img.shields.io/npm/dt/eufy-security-ws.svg)](https://www.npmjs.com/package/eufy-security-ws)
-[![Dependency Status](https://img.shields.io/librariesio/release/npm/eufy-security-ws)](https://libraries.io/npm/eufy-security-ws)
-[![Known Vulnerabilities](https://snyk.io/test/github/bropat/eufy-security-ws/badge.svg)](https://snyk.io/test/github/bropat/eufy-security-ws)
+[![node](https://img.shields.io/node/v/eufy-security-ws.svg)](https://www.npmjs.com/package/eufy-security-ws-ash)
+[![NPM version](http://img.shields.io/npm/v/eufy-security-ws.svg)](https://www.npmjs.com/package/eufy-security-ws-ash)
+[![Downloads](https://img.shields.io/npm/dm/eufy-security-ws.svg)](https://www.npmjs.com/package/eufy-security-ws-ash)
+[![Total Downloads](https://img.shields.io/npm/dt/eufy-security-ws.svg)](https://www.npmjs.com/package/eufy-security-ws-ash)
+[![Dependency Status](https://img.shields.io/librariesio/release/npm/eufy-security-ws)](https://libraries.io/npm/eufy-security-ws-ash)
+[![Known Vulnerabilities](https://snyk.io/test/github/bropat/eufy-security-ws/badge.svg)](https://snyk.io/test/github/bropat/eufy-security-ws-ash)
 
-[![NPM](https://nodei.co/npm/eufy-security-ws.png?downloads=true)](https://nodei.co/npm/eufy-security-ws/)
+[![NPM](https://nodei.co/npm/eufy-security-ws.png?downloads=true)](https://nodei.co/npm/eufy-security-ws-ash/)
 
-Small server wrapper around [eufy-security-client](https://www.npmjs.com/package/eufy-security-client) library to access it via a WebSocket.
+Small server wrapper around [eufy-security-client-ash](https://www.npmjs.com/package/eufy-security-client-ash) library to access it via a WebSocket.
 
 The development of this server was inspired by the following project:
 
